@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basketball.css">
+    <script src="basketball.js"></script>
+</head>
+<body>
+    
+    <div class="bdy">
+        <div class="team">
+            <div class="home">
+                <h1 class="team-tile" id="home-el">HOME</h1> 
+                <h1 class="team-score" id="home-score-el">0</h1>
+                <div class="btns">
+                    <button class="btn" type="submit" onclick="hAdd1()">+1</button>
+                    <button class="btn" type="submit" onclick="hAdd2()">+2</button>
+                    <button class="btn" type="submit" onclick="hAdd3()">+3</button>
+                </div> 
+            </div>
+            <div class="guest">
+                <h1 class="team-tile" id="guest-el">GUEST</h1>
+                <h1 class="team-score" id="guest-score-el">0</h1>
+                <div class="btns">
+                    <button class="btn" type="submit" onclick="gAdd1()">+1</button>
+                    <button class="btn" type="submit" onclick="gAdd2()">+2</button>
+                    <button class="btn" type="submit" onclick="gAdd3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="additionals">
+            <button class="btn" id="reset" onclick="reset()">RESET</button>
+        </div>
+    </div>
+</body>
+</html>

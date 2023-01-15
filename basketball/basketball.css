@@ -1,0 +1,67 @@
+
+.bdy{
+    background-color: #1B244A;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+}
+
+.team{
+    display: flex;
+    justify-content: space-around;
+}
+
+.home{
+    text-align: center;
+    width: 150px;
+}
+
+.guest{
+    text-align: center;
+    width: 150px;
+}
+
+.team-tile{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+}
+
+.team-score{
+    border-radius: 5px;
+    background: #080001;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    color: #F94F6D;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9AABD8;
+}
+
+#reset{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
